@@ -23,12 +23,15 @@ public class Day1 {
         // Note: If you have trouble reading the entire String, please go back and review the Tutorial closely.
         
         /* Print the sum of both integer variables on a new line. */
-        System.out.println(i + i2);
+        int iSum = i + i2;
+        System.out.println(iSum);
         /* Print the sum of the double variables on a new line. */
-		System.out.println(d + d2);
+        double dSum = d + d2;
+		System.out.println(dSum);
         /* Concatenate and print the String variables on a new line; 
         	the 's' variable above should be printed first. */
-		System.out.println(s + s2);
+		String sConcat = s + s2;
+		System.out.println(sConcat);
         scan.close();
     }
 }
