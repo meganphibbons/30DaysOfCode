@@ -13,7 +13,7 @@ public class Day2 {
     	double tipAdded = meal_cost * tip_percent / 100;
     	double taxAdded = meal_cost * tax_percent / 100;
     	double totalCost = meal_cost + tipAdded + taxAdded;
-    	int intCost = (int) totalCost;
+    	int intCost = Math.round((float) totalCost);
     	System.out.println("The total meal cost is " + intCost + " dollars.");
     }
 
