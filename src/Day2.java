@@ -10,8 +10,8 @@ public class Day2 {
 
     // Complete the solve function below.
     static void solve(double meal_cost, int tip_percent, int tax_percent) {
-    	double tipAdded = meal_cost * tip_percent;
-    	double taxAdded = meal_cost * tax_percent;
+    	double tipAdded = meal_cost * tip_percent / 100;
+    	double taxAdded = meal_cost * tax_percent / 100;
     	double totalCost = meal_cost + tipAdded + taxAdded;
     	System.out.println("The total meal cost is " + totalCost + " dollars.");
     }
