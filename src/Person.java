@@ -5,9 +5,9 @@ public class Person { //(Day 4)
     private int age;	
   
 	public Person(int initialAge) {
-		if(age < 0) {
-			age = 0;
+		if(initialAge < 0) {
 			System.out.println("Age is not valid, setting age to 0.");
+			age = 0;
 		} else {
 			age = initialAge;
 		}
