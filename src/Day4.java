@@ -1,10 +1,9 @@
-import java.io.*;
 import java.util.*;
 
-public class Person { //(Day 4)
+public class Day4 { //(Day 4)
     private int age;	
   
-	public Person(int initialAge) {
+	public Day4(int initialAge) {
 		if(initialAge < 0) {
 			System.out.println("Age is not valid, setting age to 0.");
 			age = 0;
@@ -32,7 +31,7 @@ public class Person { //(Day 4)
 		int T = sc.nextInt();
 		for (int i = 0; i < T; i++) {
 			int age = sc.nextInt();
-			Person p = new Person(age);
+			Day4 p = new Day4(age);
 			p.amIOld();
 			for (int j = 0; j < 3; j++) {
 				p.yearPasses();
