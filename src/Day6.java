@@ -22,4 +22,3 @@ public class Day6 {
     	scan.close();
     }
 }
-
