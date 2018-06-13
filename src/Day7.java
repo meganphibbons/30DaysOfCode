@@ -29,7 +29,7 @@ public class Day7 {
         scanner.close();
         
         for(int i = n - 1; i >= 0; i--) {
-        	System.out.print(i + " ");
+        	System.out.print(arr[i] + " ");
         }
     }
 }
