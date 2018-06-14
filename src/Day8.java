@@ -13,7 +13,11 @@ class Day8 {
         }
         while(in.hasNext()){
             String s = in.next();
-            System.out.println(phonebook.get(s));
+            if(phonebook.containsKey(s)) {
+            	System.out.println(s + "=" + phonebook.get(s)); 
+            } else {
+            	System.out.println("Not found");
+            }
         }
         in.close();
     }
