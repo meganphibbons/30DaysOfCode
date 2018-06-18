@@ -18,7 +18,7 @@ public class Day10 {
         int maxNum = 0;
         for(int i = 0; i < bin.length(); i++) {
         	int count = 0;
-        	while(bin.charAt(i) == '1' && i != bin.length()) {
+        	while(i != bin.length() && bin.charAt(i) == '1') {
         		count++;
         		i++;
         		if(maxNum < count) {
