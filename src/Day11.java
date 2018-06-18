@@ -17,9 +17,14 @@ public class Day11 {
             String[] arrRowItems = scanner.nextLine().split(" ");
             scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-            for (int j = 0; j < 6; j++) {
+            for (int j = 0; j < arrRowItems.length; j++) {
                 int arrItem = Integer.parseInt(arrRowItems[j]);
                 arr[i][j] = arrItem;
+            }
+            if(arrRowItems.length < 6) {
+            	for(int j = arrRowItems.length; j < 6; j++) {
+            		arr[i][j] = 0;
+            	}
             }
         }
         
