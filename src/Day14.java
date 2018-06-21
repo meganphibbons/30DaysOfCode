@@ -16,8 +16,8 @@ class Day14 {
   	public void computeDifference() {
   		for(int i = 0; i < elements.length; i++) {
   			for(int j = 0; j < elements.length; j++) {
-  				if(Math.abs(i - j) > maximumDifference) {
-  					maximumDifference = Math.abs(i - j);
+  				if(Math.abs(elements[i] - elements[j]) > maximumDifference) {
+  					maximumDifference = Math.abs(elements[i] - elements[j]);
   				}
   			}
   		}
