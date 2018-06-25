@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Day9 {
+public class Day09 {
 
     // Complete the factorial function below.
     static int factorial(int n) {

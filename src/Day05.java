@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Day5 {
+public class Day05 {
 
     private static final Scanner scanner = new Scanner(System.in);
 

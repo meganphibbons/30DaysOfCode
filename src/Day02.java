@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Day2 {
+public class Day02 {
 
     // Complete the solve function below.
     static void solve(double meal_cost, int tip_percent, int tax_percent) {

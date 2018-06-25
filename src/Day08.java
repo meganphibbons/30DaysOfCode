@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Day8 {
+class Day08 {
 	
     public static void main(String []args){
     	HashMap<String, Integer> phonebook = new HashMap<String, Integer>();
